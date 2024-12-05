@@ -1,33 +1,31 @@
-# React + TypeScript + Vite
+# Module 13 Challenge
+Homework assignment for Coding Bootcamp 2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [License](#license)
+- [Contact Me](#contact-me)
 
-Currently, two official plugins are available:
+## Description
+This is a candidate search application that calls the GitHub API and renders data in the browser.
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+npm install
+npm install dotenv
 
-## Expanding the ESLint configuration
+## Usage
+This application can be used to browse through github users and add them to a saved list that is stored locally.
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Contributors
+This code and assignment description was given to me to modify by my Bootcamp 2024 Instructor.
 
-* Configure the top-level `parserOptions` property as follows:
+## License
+MIT
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
-
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Questions
+Feel free to reach out to me here with any questions or comments:
+- Email: selhz@email.com
+- GitHub: selhz9
